@@ -1,0 +1,5 @@
+console.log('El programa mostrara un numero aleatorio');
+        let a = 1;
+        let b = 100;
+        let c = a + Math.floor(Math.random() * b);
+        console.log('El numero aleatoreo es: ', c);

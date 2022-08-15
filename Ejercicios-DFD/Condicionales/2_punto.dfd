@@ -1,0 +1,83 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+68
+'Ingrese tres numeros para identificar sin son iguales o diferentes'
+4
+1
+35
+'Ingrese el valor de la variable a'
+5
+1
+1
+a
+4
+1
+35
+'Ingrese el valor de la variable b'
+5
+1
+1
+b
+4
+1
+35
+'Ingrese el valor de la variable c'
+5
+1
+1
+c
+7
+0
+1
+19
+a=b and a=c and b=c
+7
+0
+1
+3
+a=b
+7
+0
+1
+3
+b=c
+7
+0
+1
+3
+a=c
+4
+1
+36
+'Los tres resultados son diferentes'
+13
+4
+1
+35
+'Los resultados a y c son iguales '
+13
+13
+4
+1
+35
+'Los resultados b y c son iguales '
+13
+13
+4
+1
+35
+'Los resultados a y b son iguales '
+13
+13
+4
+1
+37
+'Los resultados a,b y c son iguales '
+13
+1

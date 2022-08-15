@@ -1,0 +1,35 @@
+<!--
+2. Genere una medida de temperatura en grados celcius de forma aleatoria y conviertala a Fahrenheit, Kelvin y Rankine.
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       console.log('El programa generara una temperatura en grados celcius convirtiendola en diferentes medidas de temperatura')
+        var a = 1;
+        var b = 50;
+        var celcius = a + Math.floor(Math.random() * b);
+        console.log('La medida en grados celcius es: ', celcius,'C°');
+
+        var fahrenheit=celcius * 9/5+32;
+        console.log('Los grados celcius anteriormente asignados en grados fahrenheit son: ', fahrenheit,'F°');
+
+        var Kelvin=celcius+273.15;
+        console.log('Los grados celcius anteriormente asignados en grados Kelvin son: ', Kelvin,'K°');
+
+        var Rankine=celcius*9/5+491.67;
+        console.log('Los grados celcius anteriormente asignados en grados Rankine son: ', Rankine,'R°');
+
+
+    </script>
+</head>
+
+</html>

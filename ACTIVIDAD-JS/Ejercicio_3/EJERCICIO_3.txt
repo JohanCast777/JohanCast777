@@ -1,0 +1,57 @@
+console.log('Se averiguara la distancia de Bogota a las 5 ciudades mas grandes de Colombia en km, y esta medida se convertira en diferentes formas de medida');
+
+        let medellin=415.8;
+        let cali=460.9;
+        let barranquilla=1000.0;
+        let cartagena=1038.6;
+        let cucuta=555.8;
+
+        /*medellin*/
+
+        console.log('_______________________________MEDELLIN_________________________________________________________');
+        var medellin_decametros=medellin/100;
+        var medellin_metros=medellin*1000;
+        var medellin_centimetros=medellin/100000;
+        console.log('La distancia que hay que recorrer de Bogota a Medellin en decametros es de: ', medellin_decametros);
+        console.log('La distancia que hay que recorrer de Bogota a Medellin en metros es de:', medellin_metros);
+        console.log('La distancia que hay que recorrer de Bogota a Medellin en centimetros es de:', medellin_centimetros);
+
+        /*cali*/
+
+        console.log('_______________________________CALI_________________________________________________________');
+        var cali_decametros=cali/100;
+        var cali_metros=cali*1000;
+        var cali_centimetros=cali/100000;
+        console.log('La distancia que hay que recorrer de Bogota a Cali en decametros es de: ', cali_decametros);
+        console.log('La distancia que hay que recorrer de Bogota a Cali en metros es de:', cali_metros);
+        console.log('La distancia que hay que recorrer de Bogota a Cali en centimetros es de:', cali_centimetros);
+
+        /*barranquilla*/
+
+        console.log('_______________________________Barranquilla_________________________________________________________');
+        var barranquilla_decametros=barranquilla/100;
+        var barranquilla_metros=barranquilla*1000;
+        var barranquilla_centimetros=barranquilla/100000;
+        console.log('La distancia que hay que recorrer de Bogota a barranquilla en decametros es de: ', barranquilla_decametros);
+        console.log('La distancia que hay que recorrer de Bogota a barranquilla en metros es de:', barranquilla_metros);
+        console.log('La distancia que hay que recorrer de Bogota a barranquilla en centimetros es de:', barranquilla_centimetros);
+
+        /*cartagena*/
+
+        console.log('_______________________________Cartagena_________________________________________________________');
+        var cartagena_decametros=cartagena/100;
+        var cartagena_metros=cartagena*1000;
+        var cartagena_centimetros=cartagena/100000;
+        console.log('La distancia que hay que recorrer de Bogota a cartagena en decametros es de: ', cartagena_decametros);
+        console.log('La distancia que hay que recorrer de Bogota a cartagena en metros es de:', cartagena_metros);
+        console.log('La distancia que hay que recorrer de Bogota a cartagena en centimetros es de:', cartagena_centimetros);
+        
+        /*cucuta*/
+
+        console.log('_______________________________Cartagena_________________________________________________________');
+        var cucuta_decametros=cucuta/100;
+        var cucuta_metros=cucuta*1000;
+        var cucuta_centimetros=cucuta/100000;
+        console.log('La distancia que hay que recorrer de Bogota a cucuta en decametros es de: ', cucuta_decametros);
+        console.log('La distancia que hay que recorrer de Bogota a cucuta en metros es de:', cucuta_metros);
+        console.log('La distancia que hay que recorrer de Bogota a cucuta en centimetros es de:', cucuta_centimetros);

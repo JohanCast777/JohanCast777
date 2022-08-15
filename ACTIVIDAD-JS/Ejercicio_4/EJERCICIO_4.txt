@@ -1,0 +1,22 @@
+console.log('El programa mostrara tres numeros aleatorios, para resolver una forma cuadratica');
+        //Variable a
+        let rangobeign = 1;
+        let rangoend = 20;
+        var a = rangobeign + Math.floor(Math.random() * rangoend);
+        console.log('El numero aleatoreo es: ', a);
+
+        //Variable b
+        var b = rangobeign + Math.floor(Math.random() * rangoend);
+        console.log('El numero aleatoreo es: ', b);
+
+        //Variable c
+        var c = rangobeign + Math.floor(Math.random() * rangoend);
+        console.log('El numero aleatoreo es: ', c);
+  
+        //FORMULA: (-b±√(b²-4ac))/(2a)
+        console.log('_______________________________FORMULA CUADRATICA_____________________________________________________');
+
+        var formula_cuadraticaplus= -b+Math.sqrt(Math.pow(b)-4*a*c)/2*a;
+        console.log(formula_cuadraticaplus);
+        var formula_cuadraticaminus= -b-Math.sqrt(Math.pow(b)-4*a*c)/2*a;
+        console.log(formula_cuadraticaminus);

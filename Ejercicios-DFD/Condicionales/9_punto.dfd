@@ -1,0 +1,108 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+38
+'Inserte la fecha que desea consultar'
+4
+1
+14
+'Insertar dia'
+5
+1
+1
+a
+4
+1
+14
+'Insertar mes'
+5
+1
+1
+b
+4
+1
+14
+'Insertar año'
+5
+1
+1
+c
+6
+3
+3
+dia
+2
+25
+3
+mes
+1
+7
+3
+año
+4
+2022
+7
+0
+1
+5
+c>año
+6
+3
+1
+a
+5
+a-dia
+1
+b
+5
+b-mes
+1
+c
+5
+c-año
+4
+1
+27
+'Los dias faltantes son', a
+4
+1
+28
+'Los meses faltantes son', b
+4
+1
+27
+'Los años faltantes son', c
+13
+6
+3
+1
+a
+5
+dia-a
+1
+b
+5
+mes-b
+1
+c
+5
+año-c
+4
+1
+27
+'Los dias faltantes son', a
+4
+1
+28
+'Los meses faltantes son', b
+4
+1
+27
+'Los años faltantes son', c
+13
+1

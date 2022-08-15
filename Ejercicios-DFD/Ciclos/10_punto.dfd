@@ -1,0 +1,82 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+5
+resto
+1
+1
+4
+1
+23
+'Introduce dos numeros'
+5
+1
+5
+n1,n2
+7
+0
+1
+5
+n1>n2
+6
+2
+9
+dividendo
+2
+n2
+7
+divisor
+2
+n1
+13
+6
+2
+9
+dividendo
+2
+n1
+7
+divisor
+2
+n2
+13
+7
+0
+1
+23
+dividendo mod divisor=0
+9
+1
+26
+dividendo mod divisor != 0
+6
+3
+5
+resto
+21
+dividendo mod divisor
+9
+dividendo
+7
+divisor
+8
+divisor 
+5
+resto
+11
+4
+1
+38
+'El maximo comun divisor es:', divisor
+13
+4
+1
+38
+'El maximo comun divisor es:', divisor
+13
+1

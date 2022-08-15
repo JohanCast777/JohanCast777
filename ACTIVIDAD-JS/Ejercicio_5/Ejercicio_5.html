@@ -1,0 +1,85 @@
+<!--
+5. Implemente suma, resta, multiplicación y división de fraccionarios. Tenga en cuenta que un número fraccionario tiene numerador/denominador. Es decir cada fraccionario se conforma de dos variables numéricas
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+
+
+         console.log('El programa mostrara cuatro numeros aleatorios, de los cuales se desarrollaran diferente operaciones fraccionarias');
+        //Variable a
+        let rangobeign = 1;
+        let rangoend = 20;
+        var a = rangobeign + Math.floor(Math.random() * rangoend);
+        console.log('El numero aleatoreo a es: ', a);
+
+        //Variable b
+        var b = rangobeign + Math.floor(Math.random() * rangoend);
+        console.log('El numero aleatoreo b es: ', b);
+
+        //Variable c
+        var c = rangobeign + Math.floor(Math.random() * rangoend);
+        console.log('El numero aleatoreo c es: ', c);
+
+        //Variable d
+        var d = rangobeign + Math.floor(Math.random() * rangoend);
+        console.log('El numero aleatoreo d es: ', d);
+
+        //SUMA (a*d)+(b*c)/(b*d)
+
+        console.log('_______________________________SUMA______________________________________________');
+
+        const denomi =b*d ;
+        const valor_1=a*d;
+        const valor_2=b*c;
+        const numera=valor_1+valor_2;
+        const suma=numera/denomi;
+        console.log(suma);
+
+        //RESTA (a*d)-(b*c)/(b*d)
+
+        console.log('_______________________________RESTA______________________________________________');
+
+        const denomi_resta =b*d;
+        const valor_1_resta=a*d;
+        const valor_2_resta=b*c;
+        const numera_resta=valor_1_resta-valor_2_resta;
+        const resta=numera_resta/denomi_resta;
+        console.log(resta);
+
+        //MULTIPLICACION (a*c)/(b*d)
+
+        console.log('_______________________________MULTIPLICACION_________________________________________');
+
+        const multiplicacion=(a*c)/(b*d)
+        console.log(multiplicacion);
+
+        //DIVISION (a*d)/(b*c)
+
+        console.log('_______________________________DIVISION______________________________________');
+
+        const division=(a*d)/(b*c)
+        console.log(division);
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</head>
+
+</html>

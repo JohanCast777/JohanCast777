@@ -1,0 +1,57 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+48
+'El programa realizara la potencia de un numero'
+6
+1
+1
+a
+1
+1
+4
+1
+55
+'Ingrese el numero al que le desea generar la potencia'
+5
+1
+1
+b
+4
+1
+34
+'Ingrese el numero de la potencia'
+5
+1
+8
+potencia
+8
+1
+1
+i
+1
+1
+1
+1
+8
+potencia
+1
+1
+1
+6
+1
+1
+a
+3
+a*b
+10
+4
+1
+38
+'El resultado de la pontencia es: ', a
+1

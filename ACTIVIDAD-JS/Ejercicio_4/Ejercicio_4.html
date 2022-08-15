@@ -1,0 +1,43 @@
+<!--
+	4. Resolver la formula cuadratica generando a, b y c aleatoriamente. Defina ud un límite para las variables, por ejemplo de 0 a 100
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        console.log('El programa mostrara tres numeros aleatorios, para resolver una forma cuadratica');
+        //Variable a
+        let rangobeign = 1;
+        let rangoend = 20;
+        var a = rangobeign + Math.floor(Math.random() * rangoend);
+        console.log('El numero aleatoreo es: ', a);
+
+        //Variable b
+        var b = rangobeign + Math.floor(Math.random() * rangoend);
+        console.log('El numero aleatoreo es: ', b);
+
+        //Variable c
+        var c = rangobeign + Math.floor(Math.random() * rangoend);
+        console.log('El numero aleatoreo es: ', c);
+  
+        //FORMULA: (-b±√(b²-4ac))/(2a)
+        console.log('_______________________________FORMULA CUADRATICA_____________________________________________________');
+
+        var formula_cuadraticaplus= -b+Math.sqrt(Math.pow(b)-4*a*c)/2*a;
+        console.log(formula_cuadraticaplus);
+        var formula_cuadraticaminus= -b-Math.sqrt(Math.pow(b)-4*a*c)/2*a;
+        console.log(formula_cuadraticaminus);
+
+
+        
+    </script>
+</head>
+
+</html>

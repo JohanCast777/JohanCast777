@@ -1,0 +1,74 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+14
+'Digite horas'
+5
+1
+1
+h
+7
+0
+1
+13
+h>=0 and h<25
+4
+1
+16
+'Hora no valida'
+13
+7
+0
+1
+4
+h>12
+13
+6
+1
+1
+h
+4
+h-12
+13
+4
+1
+37
+'Digite midnutos en el rango de 0-60'
+5
+1
+1
+m
+7
+0
+1
+13
+h>=0 and h<60
+4
+1
+19
+'Minutos no valida'
+13
+4
+1
+37
+'Digite segundos en el rango de 0-60'
+5
+1
+1
+s
+4
+1
+60
+'Las horas son: ',h,'Los minutos son',m,'y los segundos',s+1
+4
+1
+22
+h,'    ', m,'    ',s+1
+13
+13
+1
